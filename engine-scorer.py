@@ -101,6 +101,8 @@ if __name__ == "__main__":  # Run the full risk scoring and reporting workflow
             "Recommendation": get_recommendation(f),
             "Confidence": f["confidence"]
         })
+    
+    results.sort(key=lambda x: x["Final Risk"], reverse=True)
 
     write_csv(results)
     print(" Risk report generated: risk_report.csv")

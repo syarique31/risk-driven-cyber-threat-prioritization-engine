@@ -1,10 +1,101 @@
 ID,Title,Category,Asset,Base Risk,Final Risk,Score (0-100),Tier,Recommendation,Confidence
-UNSW-GENERIC,Generic attack activity detected,Network Security,Public Network Infrastructure,64,89.86,100.0,Critical,Review security controls and apply appropriate mitigations.,0.9
-UNSW-EXPLOITS,Exploits attack activity detected,Network Security,Public Network Infrastructure,48,67.39,75.0,High,Review security controls and apply appropriate mitigations.,0.9
-UNSW-FUZZERS,Fuzzers attack activity detected,Network Security,Public Network Infrastructure,32,44.93,50.0,Medium,Review security controls and apply appropriate mitigations.,0.9
-UNSW-DOS,DoS attack activity detected,Network Security,Public Network Infrastructure,16,22.46,25.0,Low,Review security controls and apply appropriate mitigations.,0.9
-UNSW-RECONNAISSANCE,Reconnaissance attack activity detected,Network Security,Public Network Infrastructure,16,22.46,25.0,Low,Review security controls and apply appropriate mitigations.,0.9
-UNSW-ANALYSIS,Analysis attack activity detected,Network Security,Public Network Infrastructure,16,22.46,25.0,Low,Review security controls and apply appropriate mitigations.,0.9
-UNSW-BACKDOOR,Backdoor attack activity detected,Network Security,Public Network Infrastructure,16,22.46,25.0,Low,Review security controls and apply appropriate mitigations.,0.9
-UNSW-SHELLCODE,Shellcode attack activity detected,Network Security,Public Network Infrastructure,16,22.46,25.0,Low,Review security controls and apply appropriate mitigations.,0.9
-UNSW-WORMS,Worms attack activity detected,Network Security,Public Network Infrastructure,16,22.46,25.0,Low,Review security controls and apply appropriate mitigations.,0.9
+INC-00033,Scanning activity detected from external source,Network,Public Infrastructure,100,151.01,100.0,Critical,Review security controls and apply appropriate mitigations.,0.88
+INC-00006,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,80,116.69,77.27,High,Review security controls and apply appropriate mitigations.,0.85
+INC-00028,Suspicious elevation of privileges observed,IAM,Directory Services,75,113.26,75.0,High,Review security controls and apply appropriate mitigations.,0.88
+INC-00017,Suspicious reconnaissance behavior observed,Network,Public Infrastructure,75,110.68,73.3,High,Review security controls and apply appropriate mitigations.,0.86
+INC-00080,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,80,103.58,68.6,High,Review security controls and apply appropriate mitigations.,0.83
+INC-00024,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,75,102.96,68.18,High,Review security controls and apply appropriate mitigations.,0.8
+INC-00088,Suspicious lateral movement within network,Network,Corporate Network,80,102.96,68.18,High,Review security controls and apply appropriate mitigations.,0.9
+INC-00096,Suspicious activity targeting web application,AppSec,Web Application,100,101.53,67.23,High,Review security controls and apply appropriate mitigations.,0.71
+INC-00021,Unusual internal network activity observed,Network,Corporate Network,100,100.46,66.53,High,Review security controls and apply appropriate mitigations.,0.92
+INC-00037,Suspicious file encryption activity detected,Endpoint,Workstations,80,99.53,65.91,High,Review security controls and apply appropriate mitigations.,0.87
+INC-00004,Abnormal authentication behavior detected,IAM,Identity Platform,60,93.69,62.05,High,Review security controls and apply appropriate mitigations.,0.91
+INC-00055,Unauthorized privilege escalation attempt detected,IAM,Directory Services,80,91.87,60.84,High,Review security controls and apply appropriate mitigations.,0.87
+INC-00100,Potential data exfiltration activity observed,Data,Customer Data,60,88.55,58.64,Medium,Review security controls and apply appropriate mitigations.,0.86
+INC-00035,Unusual internal network activity observed,Network,Corporate Network,80,86.59,57.34,Medium,Review security controls and apply appropriate mitigations.,0.82
+INC-00039,Suspicious file encryption activity detected,Endpoint,Workstations,75,85.41,56.56,Medium,Review security controls and apply appropriate mitigations.,0.73
+INC-00060,Suspicious credential usage observed,IAM,Identity Platform,60,85.18,56.4,Medium,Review security controls and apply appropriate mitigations.,0.91
+INC-00025,Suspicious file encryption activity detected,Endpoint,Workstations,60,83.4,55.23,Medium,Review security controls and apply appropriate mitigations.,0.81
+INC-00094,Exploit attempt against public web service,AppSec,Web Application,60,82.37,54.55,Medium,Review security controls and apply appropriate mitigations.,0.8
+INC-00013,Exploit attempt against public web service,AppSec,Web Application,100,81.9,54.24,Medium,Review security controls and apply appropriate mitigations.,0.75
+INC-00045,Suspicious credential usage observed,IAM,Identity Platform,60,80.65,53.41,Medium,Review security controls and apply appropriate mitigations.,0.94
+INC-00072,Suspicious elevation of privileges observed,IAM,Directory Services,80,80.08,53.03,Medium,Review security controls and apply appropriate mitigations.,0.77
+INC-00018,Suspicious credential usage observed,IAM,Identity Platform,60,79.56,52.69,Medium,Review security controls and apply appropriate mitigations.,0.85
+INC-00079,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,80,78.62,52.07,Medium,Review security controls and apply appropriate mitigations.,0.9
+INC-00008,Abnormal authentication behavior detected,IAM,Identity Platform,50,74.65,49.43,Medium,Review security controls and apply appropriate mitigations.,0.87
+INC-00052,Suspicious activity targeting web application,AppSec,Web Application,60,72.07,47.73,Medium,Review security controls and apply appropriate mitigations.,0.91
+INC-00047,Suspicious credential usage observed,IAM,Identity Platform,80,71.64,47.44,Medium,Review security controls and apply appropriate mitigations.,0.82
+INC-00097,Potential data exfiltration activity observed,Data,Customer Data,80,69.01,45.7,Medium,Review security controls and apply appropriate mitigations.,0.79
+INC-00059,Suspicious lateral movement within network,Network,Corporate Network,48,68.37,45.27,Medium,Review security controls and apply appropriate mitigations.,0.83
+INC-00032,Suspicious outbound beaconing behavior detected,Endpoint,Workstations,60,65.52,43.39,Medium,Review security controls and apply appropriate mitigations.,0.84
+INC-00071,Potential command-and-control communication observed,Endpoint,Workstations,64,64.77,42.89,Medium,Review security controls and apply appropriate mitigations.,0.92
+INC-00092,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,45,63.18,41.84,Medium,Review security controls and apply appropriate mitigations.,0.9
+INC-00061,Potential data exfiltration activity observed,Data,Customer Data,48,62.9,41.65,Medium,Review security controls and apply appropriate mitigations.,0.84
+INC-00003,Suspicious credential usage observed,IAM,Identity Platform,80,62.03,41.07,Medium,Review security controls and apply appropriate mitigations.,0.71
+INC-00084,Suspicious credential usage observed,IAM,Identity Platform,75,61.88,40.97,Medium,Review security controls and apply appropriate mitigations.,0.75
+INC-00012,Unusual internal network activity observed,Network,Corporate Network,48,61.09,40.45,Medium,Review security controls and apply appropriate mitigations.,0.89
+INC-00075,Exploit attempt against public web service,AppSec,Web Application,45,61.0,40.4,Medium,Review security controls and apply appropriate mitigations.,0.79
+INC-00056,Suspicious outbound beaconing behavior detected,Endpoint,Workstations,48,60.19,39.86,Medium,Review security controls and apply appropriate mitigations.,0.95
+INC-00064,Potential data exfiltration activity observed,Data,Customer Data,48,57.02,37.76,Medium,Review security controls and apply appropriate mitigations.,0.9
+INC-00074,Potential data exfiltration activity observed,Data,Customer Data,40,56.28,37.27,Medium,Review security controls and apply appropriate mitigations.,0.82
+INC-00085,Suspicious file encryption activity detected,Endpoint,Workstations,40,55.6,36.82,Medium,Review security controls and apply appropriate mitigations.,0.81
+INC-00029,Abnormal authentication behavior detected,IAM,Identity Platform,45,55.34,36.65,Medium,Review security controls and apply appropriate mitigations.,0.86
+INC-00062,Scanning activity detected from external source,Network,Public Infrastructure,45,54.83,36.31,Medium,Review security controls and apply appropriate mitigations.,0.71
+INC-00082,Unusual outbound data transfer detected,Data,Customer Data,48,51.79,34.3,Medium,Review security controls and apply appropriate mitigations.,0.83
+INC-00014,Unauthorized privilege escalation attempt detected,IAM,Directory Services,60,51.11,33.84,Medium,Review security controls and apply appropriate mitigations.,0.78
+INC-00053,Unusual outbound data transfer detected,Data,Customer Data,45,50.54,33.47,Medium,Review security controls and apply appropriate mitigations.,0.72
+INC-00070,Unauthorized privilege escalation attempt detected,IAM,Directory Services,36,50.04,33.14,Medium,Review security controls and apply appropriate mitigations.,0.81
+INC-00041,Potential command-and-control communication observed,Endpoint,Workstations,60,47.17,31.24,Medium,Review security controls and apply appropriate mitigations.,0.72
+INC-00095,Suspicious credential usage observed,IAM,Identity Platform,50,47.0,31.12,Medium,Review security controls and apply appropriate mitigations.,0.94
+INC-00076,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,40,46.8,30.99,Medium,Review security controls and apply appropriate mitigations.,0.75
+INC-00009,Suspicious reconnaissance behavior observed,Network,Public Infrastructure,40,46.46,30.77,Medium,Review security controls and apply appropriate mitigations.,0.88
+INC-00067,Potential command-and-control communication observed,Endpoint,Workstations,30,46.33,30.68,Medium,Review security controls and apply appropriate mitigations.,0.9
+INC-00063,Suspicious elevation of privileges observed,IAM,Directory Services,80,45.92,30.41,Medium,Review security controls and apply appropriate mitigations.,0.82
+INC-00043,Exploit attempt against public web service,AppSec,Web Application,48,43.78,28.99,Low,Review security controls and apply appropriate mitigations.,0.76
+INC-00023,Potential command-and-control communication observed,Endpoint,Workstations,40,43.68,28.93,Low,Review security controls and apply appropriate mitigations.,0.91
+INC-00042,Suspicious credential usage observed,IAM,Identity Platform,45,42.7,28.28,Low,Review security controls and apply appropriate mitigations.,0.73
+INC-00099,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,36,41.18,27.27,Low,Review security controls and apply appropriate mitigations.,0.8
+INC-00090,Suspicious credential usage observed,IAM,Identity Platform,40,40.66,26.92,Low,Review security controls and apply appropriate mitigations.,0.77
+INC-00077,Scanning activity detected from external source,Network,Public Infrastructure,36,39.64,26.25,Low,Review security controls and apply appropriate mitigations.,0.77
+INC-00057,Unusual outbound data transfer detected,Data,Customer Data,40,38.88,25.75,Low,Review security controls and apply appropriate mitigations.,0.81
+INC-00016,Suspicious file encryption activity detected,Endpoint,Workstations,60,38.64,25.59,Low,Review security controls and apply appropriate mitigations.,0.92
+INC-00015,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,32,38.44,25.45,Low,Review security controls and apply appropriate mitigations.,0.91
+INC-00034,Suspicious file encryption activity detected,Endpoint,Workstations,40,38.02,25.17,Low,Review security controls and apply appropriate mitigations.,0.72
+INC-00031,Suspicious reconnaissance behavior observed,Network,Public Infrastructure,27,37.49,24.82,Low,Review security controls and apply appropriate mitigations.,0.89
+INC-00093,Unusual internal network activity observed,Network,Corporate Network,45,37.35,24.73,Low,Review security controls and apply appropriate mitigations.,0.83
+INC-00087,Suspicious outbound beaconing behavior detected,Endpoint,Workstations,24,35.01,23.18,Low,Review security controls and apply appropriate mitigations.,0.85
+INC-00026,Suspicious reconnaissance behavior observed,Network,Public Infrastructure,32,34.78,23.03,Low,Review security controls and apply appropriate mitigations.,0.76
+INC-00002,Potential data exfiltration activity observed,Data,Customer Data,30,34.45,22.81,Low,Review security controls and apply appropriate mitigations.,0.87
+INC-00011,Suspicious elevation of privileges observed,IAM,Directory Services,30,34.32,22.73,Low,Review security controls and apply appropriate mitigations.,0.8
+INC-00066,Potential data exfiltration activity observed,Data,Customer Data,50,32.76,21.69,Low,Review security controls and apply appropriate mitigations.,0.72
+INC-00027,Potential command-and-control communication observed,Endpoint,Workstations,32,32.26,21.36,Low,Review security controls and apply appropriate mitigations.,0.84
+INC-00040,Exploit attempt against public web service,AppSec,Web Application,24,31.08,20.58,Low,Review security controls and apply appropriate mitigations.,0.83
+INC-00068,Unusual outbound data transfer detected,Data,Customer Data,30,31.02,20.54,Low,Review security controls and apply appropriate mitigations.,0.94
+INC-00078,Suspicious elevation of privileges observed,IAM,Directory Services,48,31.01,20.54,Low,Review security controls and apply appropriate mitigations.,0.71
+INC-00038,Suspicious activity targeting web application,AppSec,Web Application,25,30.36,20.1,Low,Review security controls and apply appropriate mitigations.,0.92
+INC-00098,Suspicious file encryption activity detected,Endpoint,Workstations,24,30.2,20.0,Low,Review security controls and apply appropriate mitigations.,0.88
+INC-00065,Suspicious reconnaissance behavior observed,Network,Public Infrastructure,36,27.91,18.48,Low,Review security controls and apply appropriate mitigations.,0.71
+INC-00058,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,40,27.22,18.02,Low,Review security controls and apply appropriate mitigations.,0.81
+INC-00051,Suspicious activity targeting web application,AppSec,Web Application,24,26.58,17.6,Low,Review security controls and apply appropriate mitigations.,0.71
+INC-00005,Suspicious reconnaissance behavior observed,Network,Public Infrastructure,30,26.07,17.26,Low,Review security controls and apply appropriate mitigations.,0.79
+INC-00073,Suspicious file encryption activity detected,Endpoint,Workstations,30,25.56,16.93,Low,Review security controls and apply appropriate mitigations.,0.71
+INC-00054,Unusual internal network activity observed,Network,Corporate Network,24,25.03,16.57,Low,Review security controls and apply appropriate mitigations.,0.79
+INC-00048,Suspicious credential usage observed,IAM,Identity Platform,30,23.69,15.69,Low,Review security controls and apply appropriate mitigations.,0.94
+INC-00019,Suspicious elevation of privileges observed,IAM,Directory Services,24,23.59,15.62,Low,Review security controls and apply appropriate mitigations.,0.9
+INC-00086,Suspicious lateral movement within network,Network,Corporate Network,20,23.5,15.56,Low,Review security controls and apply appropriate mitigations.,0.89
+INC-00001,Suspicious credential usage observed,IAM,Identity Platform,32,22.85,15.13,Low,Review security controls and apply appropriate mitigations.,0.85
+INC-00030,Suspicious elevation of privileges observed,IAM,Directory Services,24,22.49,14.9,Low,Review security controls and apply appropriate mitigations.,0.71
+INC-00081,Suspicious outbound beaconing behavior detected,Endpoint,Workstations,20,21.6,14.3,Low,Review security controls and apply appropriate mitigations.,0.9
+INC-00010,Unauthorized privilege escalation attempt detected,IAM,Directory Services,20,21.12,13.99,Low,Review security controls and apply appropriate mitigations.,0.8
+INC-00049,Suspicious lateral movement within network,Network,Corporate Network,20,20.46,13.55,Low,Review security controls and apply appropriate mitigations.,0.93
+INC-00069,Suspicious activity targeting web application,AppSec,Web Application,20,19.8,13.11,Low,Review security controls and apply appropriate mitigations.,0.9
+INC-00050,Unusual outbound data transfer detected,Data,Customer Data,24,19.66,13.02,Low,Review security controls and apply appropriate mitigations.,0.9
+INC-00091,Potential command-and-control communication observed,Endpoint,Workstations,18,18.22,12.06,Low,Review security controls and apply appropriate mitigations.,0.92
+INC-00083,Exploit attempt against public web service,AppSec,Web Application,16,17.95,11.89,Low,Review security controls and apply appropriate mitigations.,0.85
+INC-00020,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,16,16.05,10.63,Low,Review security controls and apply appropriate mitigations.,0.76
+INC-00044,Suspicious file encryption activity detected,Endpoint,Workstations,20,12.26,8.12,Low,Review security controls and apply appropriate mitigations.,0.73
+INC-00036,Suspicious file encryption activity detected,Endpoint,Workstations,12,9.36,6.2,Low,Review security controls and apply appropriate mitigations.,0.78
+INC-00089,Suspicious credential usage observed,IAM,Identity Platform,12,9.07,6.01,Low,Review security controls and apply appropriate mitigations.,0.9
+INC-00007,Unusual internal network activity observed,Network,Corporate Network,15,8.19,5.42,Low,Review security controls and apply appropriate mitigations.,0.78
+INC-00022,Ransomware-like behavior observed on endpoint,Endpoint,Workstations,8,7.97,5.28,Low,Review security controls and apply appropriate mitigations.,0.83
+INC-00046,Suspicious lateral movement within network,Network,Corporate Network,10,7.73,5.12,Low,Review security controls and apply appropriate mitigations.,0.92
